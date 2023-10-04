@@ -1,0 +1,72 @@
+.card-wrapper {
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 20px;
+  margin-top: 20px;
+  margin-bottom: 40px;
+}
+.pagination-wrapper {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  /* margin-bottom: 40px; */
+}
+.pagination {
+  width: 93%;
+  height: 84px;
+  background-color: rgb(240, 245, 251);
+  margin-left: 20px;
+  margin-right: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
+  border-radius: 10px;
+  box-shadow: 1px 2px 18px -8px rgba(94, 94, 94, 1);
+
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 40px;
+}
+.pagination-right {
+  /* width: 50%; */
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+}
+.react-paginate {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+  list-style-type: none;
+}
+.selected {
+  width: 25px;
+  height: 25px;
+  border-radius: 5px;
+  background-color: rgb(255, 255, 255);
+  padding: 7px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  color: rgb(85, 95, 119);
+  list-style-type: none;
+  cursor: pointer;
+}
+.not_selected {
+  width: 45px;
+  height: 45px;
+  border-radius: 5px;
+  background-color: rgb(145, 145, 145);
+}

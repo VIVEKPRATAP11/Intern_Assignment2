@@ -1,0 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Almarai&family=Cabin&family=Exo&family=Indie+Flower&family=Inter+Tight:ital,wght@1,300&family=Inter:wght@300;400&family=Maven+Pro&family=Merriweather:wght@300&family=Montserrat:wght@300;400&family=Noto+Serif+Display:wght@300&family=Open+Sans:wght@300&family=Poppins:wght@400;500&family=Qahiri&family=Quicksand&family=Roboto+Slab:wght@300&family=Roboto:wght@400;500&display=swap');
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+body {
+  min-width: 100%;
+  min-height: 100vh;
+  background-color: rgb(237, 241, 246);
+}
